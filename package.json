@@ -1,0 +1,14 @@
+{
+  "name": "myvrpalyground",
+  "description": "",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo --live --verbose --port 3000 --open",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "budo": "^7.0.0",
+    "gh-pages": "^0.12.0"
+  }
+}
